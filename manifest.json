@@ -1,0 +1,24 @@
+﻿{
+  "name": "Guacamole",
+  "description": "Guacamole Remote Desktop Gateway",
+  "version": "1.0.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "Guacamole_16.png",
+	"48": "Guacamole_48.png",
+	"128": "Guacamole_128.png"
+    },
+  "app": {
+    "background": {
+      "scripts": [ "background.js" ],
+      "persistent": false
+    }
+  },
+  "permissions": [
+    "webview",
+	"fullscreen",
+	"clipboardRead",
+	"clipboardWrite"
+  ],
+  "kiosk_enabled": true
+}
